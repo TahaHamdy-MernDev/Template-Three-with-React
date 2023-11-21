@@ -4,7 +4,7 @@ import ArticlesCard from '../../../../Data/ArticlesData/ArticlesData'
 
 const Articles = () => {
     return (
-        <section className="articles section" id="articles">
+        <section className="articles section" id="Articles">
             <MainTitle>articles</MainTitle>
             <div className="articles__container container grid">
                 {ArticlesCard}

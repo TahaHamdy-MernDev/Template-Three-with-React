@@ -13,9 +13,9 @@ navLink.forEach(l => l.addEventListener('click', linkAction));
 
 const NavLink = (props) => {
     return (
-        <Link to={props.link} onClick={linkAction} className="nav__link">
+        <a href={props.link} onClick={linkAction} className="nav__link">
             {props.children}
-        </Link>
+        </a>
 
     )
 }

@@ -24,14 +24,14 @@ const Header = (props) => {
     return (
         <header className="header" id="header">
             <nav className="nav container">
-                <Link to="/Home" className="nav__logo flex">
+                <a href="#Home" className="nav__logo flex">
                     <img src={logo} alt="" />
-                </Link>
+                </a>
                 <div className="nav__menu">
                     <ul className="nav__list flex flex__direction" id='nav__list'>
-                        <NavItem><NavLink link='/Articles'>Articles </NavLink></NavItem>
-                        <NavItem><NavLink link='/Gallery'>Gallery </NavLink></NavItem>
-                        <NavItem><NavLink link='/Features'>Features </NavLink> </NavItem>
+                        <NavItem><NavLink link='#Articles'>Articles </NavLink></NavItem>
+                        <NavItem><NavLink link='#Gallery'>Gallery </NavLink></NavItem>
+                        <NavItem><NavLink link='#Features'>Features </NavLink> </NavItem>
                         <NavItem>
                             <span onClick={ShowHideDropMenu} className="other__link" id='down-list'>
                                 Other Links  <span><FaChevronLeft className='i-down' id='fa-chevron-left' /></span>
@@ -43,18 +43,18 @@ const Header = (props) => {
                                     </div>
                                     <ul className="right flex">
                                         <div className="five one flex flex__direction">
-                                            <NavItem><NavLink link='/Testimonials'><FaPercent /> Testimonials </NavLink></NavItem>
-                                            <NavItem><NavLink link='/TeamMembers'><FaUser /> Team Members </NavLink></NavItem>
-                                            <NavItem><NavLink link='/Services'><FaBuilding /> Services </NavLink></NavItem>
-                                            <NavItem><NavLink link='/OurSkills'><FaCheckCircle /> Our Skills</NavLink></NavItem>
-                                            <NavItem><NavLink link='/Works'><FaClipboard /> How It Works</NavLink></NavItem>
+                                            <NavItem><NavLink link='#Testimonials'><FaPercent /> Testimonials </NavLink></NavItem>
+                                            <NavItem><NavLink link='#TeamMembers'><FaUser /> Team Members </NavLink></NavItem>
+                                            <NavItem><NavLink link='#Services'><FaBuilding /> Services </NavLink></NavItem>
+                                            <NavItem><NavLink link='#OurSkills'><FaCheckCircle /> Our Skills</NavLink></NavItem>
+                                            <NavItem><NavLink link='#Works'><FaClipboard /> How It Works</NavLink></NavItem>
                                         </div>
                                         <div className="five two flex flex__direction">
-                                            <NavItem><NavLink link='/LatestEvents'><FaCalendar /> Events</NavLink></NavItem>
-                                            <NavItem><NavLink link='/PricingPlans'><FaServer /> Pricing Plans</NavLink></NavItem>
-                                            <NavItem><NavLink link='/TopVideos'><FaPlayCircle /> Top Videos</NavLink></NavItem>
-                                            <NavItem><NavLink link='/Stats'><FaChartBar /> Status</NavLink></NavItem>
-                                            <NavItem><NavLink link='/Discount'><FaPercent /> Request Discount</NavLink></NavItem>
+                                            <NavItem><NavLink link='#LatestEvents'><FaCalendar /> Events</NavLink></NavItem>
+                                            <NavItem><NavLink link='#PricingPlans'><FaServer /> Pricing Plans</NavLink></NavItem>
+                                            <NavItem><NavLink link='#TopVideos'><FaPlayCircle /> Top Videos</NavLink></NavItem>
+                                            <NavItem><NavLink link='#Stats'><FaChartBar /> Status</NavLink></NavItem>
+                                            <NavItem><NavLink link='#Discount'><FaPercent /> Request Discount</NavLink></NavItem>
                                         </div>
                                     </ul>
                                 </div>
