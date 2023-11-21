@@ -7,10 +7,9 @@ function App() {
 
     return (
         <>
-            <Router basename={'/first-react-project'}>
+            <Router basename={'/Template-Three-with-React'}>
                 <Header />
                 <Container />
-
                 <Footer />
             </Router>
         </>
