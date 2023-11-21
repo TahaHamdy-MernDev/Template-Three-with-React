@@ -1,8 +1,8 @@
 {
-    "name": "untitle",
+    "name": "template-three-with-react",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://TahaHamdy02.github.io/first-react-project/",
+    "homepage": "https://TahaHamdy-MernDev.github.io/Template-Three-with-React/",
     "dependencies": {
         "@rumess/react-flip-countdown": "^1.2.6",
         "@testing-library/jest-dom": "^5.16.5",
